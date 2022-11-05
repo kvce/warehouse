@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>客服服务</title>
+    <link rel="stylesheet" href="../../call/whole.css">
+    <style>
+.header {
+    height: 25px;
+    background-color: rgba(0, 0, 0, 50%);
+    margin-bottom: 6px;
+}
+.headerarea1 {
+    position: absolute;
+    left: 30px;
+}
+.header span,a {
+    font-size: 12px;
+    font-weight: 400px;
+    margin-right: 5px;
+    color: #fff;
+}
+.header:hover {
+    background-color: rgba(0, 0, 0, 80%);
+}
+.header a:hover {
+    color: orange;
+}
+.headerarea2 {
+    position: absolute;
+    right: 30px;
+}
+/* .box {
+    width: 1080px;
+    height: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #d7d7d7;
+} */
+.box form input, select {
+    font-size: 17px;;
+    margin-bottom: 30px;
+}
+.fanbox {
+    width: 315px;
+    margin: 25px auto 0;
+    background-color: #fff;
+    border: 5px dashed orange;
+}
+
+.fanbox .sign {
+    width: 200px;
+}
+.fixed {
+    position: fixed;
+    top: 250px;
+    width: 100px;
+    height: 200px;
+    background-color: rgba(255,165,0);
+}
+.fixed h5 {
+    padding: 10px 5px 10px 5px;
+    color: #fff;
+}
+.fanbox input {
+
+}
+
+
+    </style>
+</head>
+<body>
+        <div class="header">
+        <div class="headerarea1">
+            <span>
+                <a href="../../案例/works/网页导航.html" target="_blank">首页</a>|
+                <a href="#">云服务</a>|
+                <a href="#">公司中心</a>|
+                <a href="#">新闻中心</a>|
+                <a href="#">项目中心</a>|
+                <a href="#">产品展示</a>|
+                <a href="#">季度报表</a>|
+                <a href="../../案例/works/公司简介.html">关于我们</a>|
+                <a href="#">联系我们</a>|
+                <a href="#">留言反馈</a>|
+            </span>
+        </div>
+        <!-- 导航栏左侧 -->
+        <div class="headerarea2">
+            <span>
+                <a href="#">登录</a>|
+                <a href="#">注册</a>|
+                <a href="#">通知</a>
+            </span>
+        </div>
+        <!-- 导航栏右侧 -->
+        </div>
+        <div class="box">
+            <div class="fanbox">
+            <form action="">
+            是否下单：<input type="radio" id="man" name="1"><label for="man">是</label>
+            <input type="radio" id="women" name="1"><label for="women">否</label><br>
+
+            下单日期：<select name="one" id="" value="年">
+                <option value="">2011</option>
+                <option value="">2012</option>
+                <option value="">2013</option>
+                <option value="">2014</option>
+                <option value="">2015</option>
+                <option value="">2016</option>
+                <option value="">2017</option>
+                <option value="">2018</option>
+                <option value="">2019</option>
+                <option value="">2020</option>
+                <option value="">2021</option>
+                <option value="">2022</option>
+            </select>
+            <select name="two" id="" aria-placeholder="月" aria-valuemax="月">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+            </select>
+            <select name="three" id="">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+                <option value="">13</option>
+                <option value="">14</option>
+                <option value="">15</option>
+                <option value="">16</option>
+                <option value="">17</option>
+                <option value="">18</option>
+                <option value="">19</option>
+                <option value="">20</option>
+                <option value="">21</option>
+                <option value="">22</option>
+                <option value="">23</option>
+                <option value="">24</option>
+                <option value="">25</option>
+                <option value="">26</option>
+                <option value="">27</option>
+                <option value="">28</option>
+                <option value="">29</option>
+                <option value="">30</option>
+                <option value="">31</option>
+            </select><br>
+
+            收货地址：<input type="text" placeholder="请输入收获地址" maxlength="20"><br>
+
+            收获状态：<input type="radio" id="correct" name="2"><label for="correct">已收货</label>
+            <input type="radio" id="incorrect" name="2"><label for="incorrect">未收货</label>
+            <input type="radio" id="error" name="2"><label for="error">异常情况</label><br>
+
+            订单编号：<input type="text" placeholder="请输入订单编号" maxlength="30"><br>
+
+            上传图片：<input type="file" class="sign"><br>
+
+            电子邮箱：<input type="text" placeholder="请输入邮箱" maxlength="30"><br>
+
+            手机号&nbsp;&nbsp;&nbsp;：<input type="text" placeholder="请输入手机号" maxlength="11"><br>
+
+            验证码&nbsp;&nbsp;&nbsp;：<input type="text" placeholder="请输入验证码" maxlength="6"><br>
+
+            您希望的处理时间：<input type="checkbox" id="10s"><label for="10s">10秒</label>
+            <input type="checkbox" id="30s"><label for="30s">30秒</label>
+            <input type="checkbox" id="24h" checked><label for="24h">24小时</label><br>
+
+            提交：<input type="submit" value="数据提交"><br>
+
+            重输：<input type="reset" value="一键清除" style="margin: 0;">
+        </form>
+        </div>
+    </div>
+    <div class="fixed">
+        <h5>
+            输入具体情况后，客服将在24h以内为您进行处理。
+        </h5>
+    </div>
+</body>
+</html>
